@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Login facial con face-api.js</h1>
+
+  <div id="status">Cargando modelos...</div>
+
+  <div class="video-container">
+    <video id="video" autoplay muted></video>
+    <canvas id="overlay"></canvas>
+  </div>
+
+  <div class="controls">
+    <button id="registerBtn">Registrar rostro</button>
+    <button id="loginBtn" disabled>Login con rostro</button>
+  </div>
+
+  <div id="loginStatus"></div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
